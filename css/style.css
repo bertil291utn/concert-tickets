@@ -1,3 +1,5 @@
+/* GLOBALS VARIABLES */
+
 :root {
   --primary-color: #ee523c;
   --secondary-color: #272a31;
@@ -39,4 +41,19 @@ body {
 
 .bg-third-color {
   background-color: var(--third-color);
+}
+
+.opacity {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  height: 100%;
+}
+
+/* MAIN CONTENT */
+
+.hero-section {
+  background-image: url(../assets/img/hero-section.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
 }
