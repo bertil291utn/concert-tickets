@@ -23,6 +23,7 @@
   .behind-navbar {
     margin-top: 50px;
   }
+
   .fixed {
     background-color: white;
   }
@@ -32,7 +33,6 @@
   }
 
   .contenedor {
-    position: fixed;
     background-color: #fff;
     top: 0;
     right: 0;
