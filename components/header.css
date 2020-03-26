@@ -17,9 +17,8 @@
 
 @media only screen and (min-width: 768px) {
   .behind-navbar {
-    /* height: 50px; */
+    margin-top: 50px;
   }
-
   .fixed {
     background-color: white;
   }
@@ -27,4 +26,8 @@
   .border-shadow {
     box-shadow: 2px 4px 3px 1px rgba(31, 45, 61, 0.15);
   }
+}
+
+@media only screen and (min-width: 992px) {
+  
 }

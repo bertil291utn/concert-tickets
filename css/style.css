@@ -44,7 +44,7 @@ body {
 }
 
 .opacity {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  background-image: linear-gradient(rgba(238, 82, 60, 0.41), rgba(0, 0, 0, 0.9));
   height: 100%;
 }
 
@@ -56,4 +56,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-section .container-fluid {
+    padding-top: 50px;
+  }
 }
