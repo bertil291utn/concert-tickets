@@ -1,0 +1,30 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.left-side {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left-side i {
+  color: var(--third-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .behind-navbar {
+    /* height: 50px; */
+  }
+
+  .fixed {
+    background-color: white;
+  }
+
+  .border-shadow {
+    box-shadow: 2px 4px 3px 1px rgba(31, 45, 61, 0.15);
+  }
+}
