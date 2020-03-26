@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Lato", Helvetica !important;
 }
 
 .titles-font-family {
@@ -43,30 +43,16 @@ body {
   background-color: var(--third-color);
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 .opacity {
   background-image: linear-gradient(rgb(100, 99, 99), rgba(238, 82, 60, 0.41));
   height: 100%;
 }
 
-.hero-section .container-fluid {
-  color: #fff;
-  padding-top:40px ;
+p {
+  margin: 0 !important;
 }
 
-
-
-/* MAIN CONTENT */
-
-.hero-section {
-  background-image: url(../assets/img/hero-section.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-@media only screen and (max-width: 576px) {
-  .hero-section .container-fluid {
-    padding-top: 80px;
-  }
-}
