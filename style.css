@@ -56,3 +56,7 @@ p {
   margin: 0 !important;
 }
 
+.btn-outline-primary {
+  color: unset;
+  border-color: var(--primary-color);
+}

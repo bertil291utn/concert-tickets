@@ -25,7 +25,7 @@
   color: #fff;
 }
 
-.main-program .main-program-content {
+.section-content {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -34,10 +34,19 @@
   background-color: #3a3d44;
 }
 
-.main-program hr {
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title hr {
   border-color: var(--primary-color);
   margin: 0 auto;
   width: 50px;
+}
+
+.section-title h4 {
+  text-align: center;
+  font-weight: 600;
 }
 
 .main-program .articles-content {
@@ -67,8 +76,18 @@ article {
   color: #fff;
 }
 
-.d-none {
-  transition: display 0.2s linear;
+.featured-speaking-content article {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.featured-speaking-content hr {
+  margin-right: 90%;
+}
+
+.featured-speaking-content p {
+  font-size: 14px;
 }
 
 /* MEDIA QUERYS */
