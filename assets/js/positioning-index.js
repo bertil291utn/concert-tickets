@@ -1,8 +1,8 @@
 $(function () {
-    $("#encabezado").load("src/components/header.html");
+    $("#encabezado").load("src/components/header/header.html");
     $("#main").load("src/App.html");
-    $("#pie-de-pagina").load("src/components/footer.html");
-    $("#scroll-header").load("src/components/scroll-header.html");
+    $("#pie-de-pagina").load("src/components/footer/footer.html");
+    $("#scroll-header").load("src/components/scroll-header/scroll-header.html");
 
     var prevScrollpos = window.pageYOffset;
     var navTwo = document.getElementById("scroll-header");

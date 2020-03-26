@@ -7,12 +7,17 @@
   z-index: 100;
 }
 
-.left-side {
+.left-side-scroll {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.left-side i {
-  color: var(--third-color);
+.left-side-scroll i {
+  color: var(--secondary-color);
 }
+
+.border-shadow-scroll {
+  box-shadow: -5px -2px 14px 6px #ee523c;
+}
+
 

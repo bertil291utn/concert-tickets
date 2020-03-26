@@ -19,6 +19,17 @@
   position: absolute;
 }
 
+.border-shadow-header {
+  box-shadow: -5px -2px 14px 6px #ee523c;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .border-shadow-header{
+    box-shadow: none !important;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .behind-navbar {
     margin-top: 50px;
@@ -26,10 +37,6 @@
 
   .fixed {
     background-color: white;
-  }
-
-  .border-shadow {
-    box-shadow: 2px 4px 3px 1px rgba(31, 45, 61, 0.15);
   }
 
   .contenedor {
