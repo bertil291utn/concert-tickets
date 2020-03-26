@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #ee523c;
+  --secondary-color: #272a31;
+  --third-color: #d3d3d3;
+}
+
 @font-face {
   font-family: "CocoGoose";
   src: url("../assets/fonts/Cocogoose-Pro-trial.ttf") format("truetype");
@@ -9,4 +15,28 @@ body {
 
 .titles-font-family {
   font-family: "CocoGoose", Helvetica, sans-serif !important;
+}
+
+.text-primary-color {
+  color: var(--primary-color);
+}
+
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+
+.text-third-color {
+  color: var(--third-color);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.bg-third-color {
+  background-color: var(--third-color);
 }
