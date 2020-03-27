@@ -1,14 +1,106 @@
+/* Global variables */
+.steps {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
 
+.tickets .tabla-article {
+  margin: 20px 0;
+}
+
+/* main */
+
+.select-tickets {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+}
+
+.breadcrum {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.breadcrum {
+  color: var(--secondary-color);
+}
+
+.info-select-tickets {
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title hr {
+  border-color: var(--primary-color);
+  margin: 0 auto;
+  width: 50px;
+}
+
+.section-title h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.step-bullet {
+  padding: 20px 0;
+  color: var(--primary-color);
+}
+
+.step-bullet span {
+  font-size: 18px;
+}
+
+.tabla,
+.second-day {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.element-title {
+  font-size: 18px;
+}
+
+.precios {
+  background-color: var(--primary-color);
+  border-color: unset;
+}
+
+/* media queries*/
 
 @media only screen and (max-width: 576px) {
   .border-shadow-header {
     box-shadow: -5px -2px 14px 6px #ee523c !important;
     width: 100%;
   }
+
   .tickets {
-    padding-top: 80px;
+    padding-top: 60px;
   }
+
   .left-side i {
     color: var(--secondary-color) !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .select-tickets {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .steps {
+    border: 2px solid #e3e3e3;
+    border-radius: 100px;
+    margin: 0 15%;
   }
 }
