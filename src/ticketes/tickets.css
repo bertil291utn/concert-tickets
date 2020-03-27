@@ -74,6 +74,41 @@
   border-color: unset;
 }
 
+#diamond-element {
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-bottom-color: var(--primary-color);
+  position: relative;
+}
+
+#diamond-element:after {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: var(--primary-color);
+}
+
+#diamond-element i {
+  top: 20px;
+  right: -6px;
+  z-index: 1;
+  color: #fff;
+}
+
+.select-lunch {
+  padding: 40px 0;
+}
+
+.diamond-select-tickets {
+  margin: 0 auto;
+  width: 50px;
+}
+
 /* media queries*/
 
 @media only screen and (max-width: 576px) {
