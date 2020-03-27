@@ -5,6 +5,12 @@ main section .container-fluid {
   padding-bottom: 30px;
 }
 
+article {
+  margin: 30px 0;
+}
+
+/* main */
+
 .background-image {
   background-position: center;
   background-size: cover;
@@ -94,6 +100,36 @@ main section .container-fluid {
 .contenido {
   margin: 0 auto;
   padding: 70px 0;
+  color: #fff;
+}
+
+.partners {
+  background-color: #414246;
+}
+
+.partners .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners .section-title {
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.partners .partners-info i {
+  color: #8f8f8f;
+}
+
+.partners-info .list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-info li {
+  margin: 10px;
 }
 
 @media only screen and (max-width: 576px) {
