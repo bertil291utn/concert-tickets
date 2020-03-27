@@ -6,6 +6,7 @@ $(function () {
 
     var prevScrollpos = window.pageYOffset;
     var navTwo = document.getElementById("scroll-header");
+    navTwo.classList.add("d-none")
     window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
