@@ -1,0 +1,10 @@
+.footer {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.footer .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
