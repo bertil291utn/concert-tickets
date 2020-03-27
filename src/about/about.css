@@ -1,9 +1,19 @@
-.hero-section {
-  background-image: url(/assets/img/hero-section.png);
+/* global var*/
+
+main section .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.background-image {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+}
+
+.hero-section {
+  background-image: url(/assets/img/hero-section.png);
 }
 
 .hero-section .container-fluid {
@@ -30,6 +40,60 @@
 
 .bottom-info-hero .email {
   text-decoration: underline;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title hr {
+  border-color: var(--primary-color);
+  margin: 0 auto;
+  width: 50px;
+}
+
+.section-title h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.global-summit {
+  text-align: center;
+  border-bottom: 2px solid #f9f9f9;
+}
+
+.global-summit .title {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.global-summit-logo {
+  border: 2px solid #f9f9f9;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.past-gs .container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#first-article {
+  background-image: url(/assets/img/hero-section.png);
+}
+
+.opacity-past-gs {
+  background-image: linear-gradient(rgb(238, 82, 60, 0.41), rgba(238, 82, 60, 0.41));
+  height: 100%;
+}
+
+.contenido {
+  margin: 0 auto;
+  padding: 70px 0;
 }
 
 @media only screen and (max-width: 576px) {
