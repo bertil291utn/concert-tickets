@@ -87,7 +87,7 @@ main section .container-fluid {
 }
 
 .opacity-past-gs {
-  background-image: linear-gradient(rgb(238, 82, 60, 0.41), rgba(238, 82, 60, 0.41));
+  background-image: linear-gradient(rgba(238, 82, 60, 0.7), rgba(238, 82, 60, 0.62));
   height: 100%;
 }
 
