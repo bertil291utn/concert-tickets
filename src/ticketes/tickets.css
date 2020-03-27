@@ -1,13 +1,14 @@
-a {
-  color: red !important;
-}
 
-/* .contenedor {
-  position: relative;
-} */
 
 @media only screen and (max-width: 576px) {
+  .border-shadow-header {
+    box-shadow: -5px -2px 14px 6px #ee523c !important;
+    width: 100%;
+  }
   .tickets {
     padding-top: 80px;
+  }
+  .left-side i {
+    color: var(--secondary-color) !important;
   }
 }
