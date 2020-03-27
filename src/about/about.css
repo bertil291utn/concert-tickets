@@ -1,3 +1,37 @@
+.hero-section {
+  background-image: url(../../assets/img/hero-section.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.hero-section .container-fluid {
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.info-hero {
+  background-color: #fff;
+  border: 1px solid var(--third-color);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.info-hero p {
+  text-align: center;
+  line-height: 30px;
+}
+
+.bottom-info-hero {
+  text-align: center;
+}
+
+.bottom-info-hero .email {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 576px) {
   .hero-section .container-fluid {
     padding-top: 80px;
