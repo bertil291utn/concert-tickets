@@ -99,11 +99,45 @@ article {
   padding: 15px 0;
 }
 
+.partners {
+  background-color: #414246;
+}
+
+.partners .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners .section-title {
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.partners .partners-info i {
+  color: #8f8f8f;
+}
+
+.partners-info .list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-info li {
+  margin: 10px;
+}
 
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 576px) {
   .hero-section .container-fluid {
     padding-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .partners-info .list-unstyled {
+    margin: 0 100px;
   }
 }
