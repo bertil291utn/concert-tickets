@@ -1,0 +1,5 @@
+@media only screen and (max-width: 576px) {
+  .hero-section .container-fluid {
+    padding-top: 80px;
+  }
+}
