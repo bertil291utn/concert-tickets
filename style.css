@@ -73,3 +73,19 @@ p {
 .btn-outline-primary:focus {
   box-shadow: unset;
 }
+
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title hr {
+  border-color: var(--primary-color);
+  margin: 0 auto;
+  width: 50px;
+}
+
+.section-title h4 {
+  text-align: center;
+  font-weight: 600;
+}
