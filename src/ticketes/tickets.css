@@ -71,7 +71,7 @@
   font-size: 18px;
 }
 
-.precios {
+.precios-button {
   background-color: var(--primary-color);
   border-color: unset;
 }
@@ -109,6 +109,34 @@
 .diamond-select-tickets {
   margin: 0 auto;
   width: 50px;
+}
+
+.menus-thing {
+  border: 1px solid #e3e3e3;
+}
+
+.top-menus {
+  background-color: #f6f6f6;
+  height: 50px;
+}
+
+.menu-contenido {
+  padding: 10px;
+}
+
+.menu-contenido ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.select-menus-button {
+  background-color: var(--primary-color);
+  border-color: unset;
+}
+
+.menu-contenido li {
+  padding: 10px;
 }
 
 /* media queries*/
