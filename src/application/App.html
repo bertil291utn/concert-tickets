@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="src/App.css">
+    <link rel="stylesheet" type="text/css" href="src/application/App.css">
+    <script type="text/javascript" src="src/application/App.js"></script>
 
     <title>Document</title>
 </head>
@@ -121,7 +122,7 @@
                             iusto optio</p>
                     </div>
                 </article>
-                <div id="view-more">
+                <div id="view-more" class="d-none d-lg-block">
                     <article>
                         <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
                         <div class="right-content">
@@ -168,8 +169,8 @@
                     </article>
                 </div> <!-- id view more -->
             </div> <!-- content -->
-            <button type="button" class="btn btn-outline-primary w-100">
-                MORE <i class="fas fa-angle-down ml-2 text-primary-color"></i>
+            <button type="button" class="btn btn-outline-primary w-100 d-lg-none" onclick="viewMore()">
+                <span id="name-button">MORE</span> <i class="fas fa-angle-down ml-2 text-primary-color" id="icon-button"></i>
             </button>
         </div>
     </section>

@@ -56,7 +56,20 @@ p {
   margin: 0 !important;
 }
 
-.btn-outline-primary {
+.btn-outline-primary:hover
+{
   color: unset;
+  background-color: unset;
   border-color: var(--primary-color);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active 
+{
+  color: #fff;
+  background-color: var(--primary-color);
+  /* border-color: var(--primary-color); */
+}
+
+.btn-outline-primary:focus {
+  box-shadow: unset;
 }

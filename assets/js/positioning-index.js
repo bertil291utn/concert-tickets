@@ -1,9 +1,11 @@
 $(function () {
+    //load page elements
     $("#encabezado").load("src/components/header/header.html");
-    $("#main").load("src/App.html");
+    $("#main").load("src/application/App.html");
     $("#pie-de-pagina").load("src/components/footer/footer.html");
     $("#scroll-header").load("src/components/scroll-header/scroll-header.html");
 
+    //scrolls for the navbar
     var prevScrollpos = window.pageYOffset;
     var navTwo = document.getElementById("scroll-header");
     navTwo.classList.add("d-none")
@@ -21,4 +23,5 @@ $(function () {
         prevScrollpos = currentScrollPos;
     }
 
+   
 });
