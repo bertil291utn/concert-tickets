@@ -4,6 +4,19 @@
 }
 
 .footer .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.info-footer p {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    margin-left: 15%;
+  }
 }
