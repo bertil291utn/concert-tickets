@@ -1,3 +1,37 @@
+.schedule {
+  background-color: #f7f7f7;
+}
+
+.schedule section {
+  padding: 20px;
+}
+
+.breadcrum {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--secondary-color);
+}
+
+.schedule-button {
+  color: var(--secondary-color);
+  background-color: #ebebeb;
+  border-color: #e3e3e3;
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.popup span{
+  font-size: 14px;
+}
+
+/* media queries*/
+
 @media only screen and (max-width: 576px) {
   .border-shadow-header {
     box-shadow: -5px -2px 14px 6px #ee523c !important;
