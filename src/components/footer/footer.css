@@ -1,6 +1,6 @@
 .footer {
   background-color: #2e2e2e;
-  color: #fff;
+  color: var(--third-color);
 }
 
 .footer .container-fluid {
