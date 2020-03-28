@@ -1,5 +1,27 @@
+.anchor-tags {
+  color: unset;
+  text-decoration: none;
+}
+
+.bg-purple {
+  background-color: #e1def9;
+}
+
+.bg-gray {
+  background-color: #edf0f5;
+}
+
+.bg-orange {
+  background-color: #ffe3db;
+}
+
+.bg-aqua {
+  background-color: #daf0ee;
+}
+
 .schedule {
   background-color: #f7f7f7;
+  padding-bottom: 50px;
 }
 
 .schedule section {
@@ -47,8 +69,56 @@
   text-align: center;
 }
 
+.element-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.table-schedule-element {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center; */
+}
+
+.table-schedule-element article {
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.activity {
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text-place {
+  font-size: 14px;
+}
+
+.bottom-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-tag .text-place {
+  text-decoration: underline;
+}
+
+.select-menus-button {
+  background-color: var(--primary-color);
+  border-color: unset;
+}
+
 /* media queries*/
 
+@media only screen and (min-width: 480px) {
+  .bottom-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 @media only screen and (max-width: 576px) {
   .border-shadow-header {
     box-shadow: -5px -2px 14px 6px #ee523c !important;
