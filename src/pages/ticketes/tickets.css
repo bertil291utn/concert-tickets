@@ -142,14 +142,6 @@
   .select-tickets {
     padding-top: 60px;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .select-tickets .container-fluid,
-  .select-lunch {
-    margin: 0 auto;
-    width: 80%;
-  }
 
   .steps {
     /* border: 2px solid #e3e3e3; */
@@ -168,5 +160,13 @@
   .step-bullet {
     padding-bottom: 0;
     margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .select-tickets .container-fluid,
+  .select-lunch {
+    margin: 0 auto;
+    width: 80%;
   }
 }
