@@ -12,10 +12,34 @@
 <body>
     <nav>
         <section class="contenedor border-shadow-header">
-            <div class="container-fluid">
+            <div class="container-fluid flex-adjust-center">
                 <div class="left-side">
                     <i class="fa fa-bars fa-2x d-md-none"></i>
-                    <i class="fa fa-search fa-2x d-none d-md-block"></i>
+                    <a href="/">
+                        <img src="/assets/img/loachella-logo-secondary.svg" alt="logo-header" class="d-none d-md-block">
+                    </a>
+                </div>
+                <div class="right-side d-none d-md-flex flex-adjust-center">
+                    <ul class="list-unstyled flex-adjust-center">
+                        <li>
+                            <a href="/src/pages/about/about-skeleton.html">
+                                <span class="text-secondary-color font-weight-bold">About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/src/pages/ticketes/ticketes-skeleton.html">
+                                <span class="text-secondary-color font-weight-bold">Tickets</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/src/pages/schedule/schedule-skeleton.html">
+                                <span class="text-secondary-color font-weight-bold">Schedule</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn btn-outline-primary btn-block campaign-button">
+                        CC campaign</button>
                 </div>
             </div>
         </section>

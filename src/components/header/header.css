@@ -1,3 +1,15 @@
+.flex-adjust-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: unset;
+}
+
 .fixed {
   position: fixed;
   top: 0;
@@ -15,17 +27,34 @@
   color: var(--third-color);
 }
 
+.left-side img {
+  padding: 10px;
+}
+
+.right-side ul {
+  margin: 0;
+}
+
+.right-side li {
+  margin-right: 10px;
+}
+
 .contenedor {
   position: absolute;
+}
+
+.campaign-button {
+  color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  border-radius: 0;
 }
 
 .border-shadow-header {
   box-shadow: -5px -2px 14px 6px #ee523c;
 }
 
-
 @media only screen and (max-width: 576px) {
-  .border-shadow-header{
+  .border-shadow-header {
     box-shadow: none !important;
   }
 }
