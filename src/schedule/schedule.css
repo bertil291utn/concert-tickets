@@ -26,8 +26,25 @@
   border: 1px solid #e3e3e3;
 }
 
-.popup span{
+.popup span {
   font-size: 14px;
+}
+
+.indications {
+  border: 1px solid #e3e3e3;
+  padding: 5px;
+}
+
+.indications ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.indications li {
+  padding: 10px;
+  text-align: center;
 }
 
 /* media queries*/
