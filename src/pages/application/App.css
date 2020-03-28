@@ -1,4 +1,7 @@
 /* MAIN CONTENT */
+body {
+  overflow-x: hidden;
+}
 
 .hero-section {
   background-image: url(/assets/img/hero-section.png);
@@ -34,10 +37,8 @@
   background-color: #3a3d44;
 }
 
-
-
 .main-program .articles-content {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 article .articles-content-info {
@@ -111,6 +112,12 @@ article {
   justify-content: space-around;
 }
 
+.whole-program-link {
+  text-decoration: underline;
+  text-align: center;
+  padding: 30px 0;
+}
+
 .partners-info li {
   margin: 10px;
 }
@@ -126,5 +133,66 @@ article {
 @media only screen and (min-width: 768px) {
   .partners-info .list-unstyled {
     margin: 0 100px;
+  }
+
+  .articles-content article {
+    width: 48%;
+    margin: 5px;
+  }
+
+  article .articles-content-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .articles-content-info .left-content {
+    flex-direction: column;
+  }
+
+  .main-program .articles-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .articles-content article {
+    width: 32%;
+  }
+
+  article .articles-content-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .right-content {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section .container-fluid {
+    padding-left: 150px;
+    padding-right: 40%;
+  }
+
+  .articles-content article {
+    width: 18%;
+  }
+
+  .main-program .articles-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+  .right-content {
+    font-size: 12px;
   }
 }

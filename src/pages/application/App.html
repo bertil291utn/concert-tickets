@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <!-- local js functions -->
     <script type="text/javascript" src="/src/pages/application/App.js"></script>
 
@@ -38,8 +38,8 @@
             <div class="articles-content">
                 <article>
                     <div class="articles-content-info container-fluid">
-                        <div class="left-content mr-5 d-flex align-items-center">
-                            <i class='fas fa-chalkboard-teacher mr-3 fa-2x'></i>
+                        <div class="left-content mr-5 mr-md-0 d-flex align-items-center">
+                            <i class='fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x'></i>
                             <h5 class="text-primary-color font-weight-bolder">Lecture</h5>
                         </div>
                         <div class="right-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -48,8 +48,8 @@
                 </article>
                 <article>
                     <div class="articles-content-info container-fluid">
-                        <div class="left-content mr-5 d-flex align-items-center">
-                            <i class='fas fa-chalkboard-teacher mr-3 fa-2x'></i>
+                        <div class="left-content mr-5  mr-md-0 d-flex align-items-center">
+                            <i class='fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x'></i>
                             <h5 class="text-primary-color font-weight-bolder">Lecture</h5>
                         </div>
                         <div class="right-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -58,8 +58,8 @@
                 </article>
                 <article>
                     <div class="articles-content-info container-fluid">
-                        <div class="left-content mr-5 d-flex align-items-center">
-                            <i class='fas fa-chalkboard-teacher mr-3 fa-2x'></i>
+                        <div class="left-content mr-5 mr-md-0 d-flex align-items-center">
+                            <i class='fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x'></i>
                             <h5 class="text-primary-color font-weight-bolder">Lecture</h5>
                         </div>
                         <div class="right-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -68,8 +68,8 @@
                 </article>
                 <article>
                     <div class="articles-content-info container-fluid">
-                        <div class="left-content mr-5 d-flex align-items-center">
-                            <i class='fas fa-chalkboard-teacher mr-3 fa-2x'></i>
+                        <div class="left-content mr-5 mr-md-0 d-flex align-items-center">
+                            <i class='fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x'></i>
                             <h5 class="text-primary-color font-weight-bolder">Lecture</h5>
                         </div>
                         <div class="right-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -78,8 +78,8 @@
                 </article>
                 <article>
                     <div class="articles-content-info container-fluid">
-                        <div class="left-content mr-5 d-flex align-items-center">
-                            <i class='fas fa-chalkboard-teacher mr-3 fa-2x'></i>
+                        <div class="left-content mr-5 mr-md-0 d-flex align-items-center">
+                            <i class='fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x'></i>
                             <h5 class="text-primary-color font-weight-bolder">Lecture</h5>
                         </div>
                         <div class="right-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -88,9 +88,11 @@
                 </article>
             </div>
             <div class="button">
-                <button class="bg-primary-color">
+                <button class="bg-primary-color d-lg-none">
                     <h4>Join CC Global Summit 2015</h4>
                 </button>
+                <a href="/src/pages/schedule/schedule-skeleton.html" class="whole-program-link d-none d-lg-block"><span
+                        class="text-third-color">SEE THE WHOLE PROGRAM</span></a>
             </div>
         </div>
     </section>
@@ -101,29 +103,9 @@
                 <h4>Featured Speakers</h4>
                 <hr>
             </div>
-            <div class="featured-speaking-content">
-                <article>
-                    <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
-                    <div class="right-content">
-                        <h5 class="font-weight-bold">Yochi Blanker</h5>
-                        <h6 class="text-primary-color font-italic">Lorem ipsum dolor sit, amet consectetur</h6>
-                        <hr>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima delectus saepe ut, modi iure
-                            iusto optio</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
-                    <div class="right-content">
-                        <h5 class="font-weight-bold">Yochi Blanker</h5>
-                        <h6 class="text-primary-color font-italic">Lorem ipsum dolor sit, amet consectetur</h6>
-                        <hr>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima delectus saepe ut, modi iure
-                            iusto optio</p>
-                    </div>
-                </article>
-                <div id="view-more" class="d-none d-lg-block">
-                    <article>
+            <div class="featured-speaking-content ">
+                <div class="first-articles-col row row-cols-lg-2">
+                    <article class="col-lg">
                         <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
                         <div class="right-content">
                             <h5 class="font-weight-bold">Yochi Blanker</h5>
@@ -134,7 +116,7 @@
                                 iusto optio</p>
                         </div>
                     </article>
-                    <article>
+                    <article class="col-lg">
                         <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
                         <div class="right-content">
                             <h5 class="font-weight-bold">Yochi Blanker</h5>
@@ -145,7 +127,9 @@
                                 iusto optio</p>
                         </div>
                     </article>
-                    <article>
+                </div>
+                <div id="view-more" class="d-none d-lg-flex row row-cols-lg-2">
+                    <article class="col-lg">
                         <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
                         <div class="right-content">
                             <h5 class="font-weight-bold">Yochi Blanker</h5>
@@ -156,7 +140,29 @@
                                 iusto optio</p>
                         </div>
                     </article>
-                    <article>
+                    <article class="col-lg">
+                        <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
+                        <div class="right-content">
+                            <h5 class="font-weight-bold">Yochi Blanker</h5>
+                            <h6 class="text-primary-color font-italic">Lorem ipsum dolor sit, amet consectetur</h6>
+                            <hr>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima delectus saepe ut, modi
+                                iure
+                                iusto optio</p>
+                        </div>
+                    </article>
+                    <article class="col-lg">
+                        <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
+                        <div class="right-content">
+                            <h5 class="font-weight-bold">Yochi Blanker</h5>
+                            <h6 class="text-primary-color font-italic">Lorem ipsum dolor sit, amet consectetur</h6>
+                            <hr>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima delectus saepe ut, modi
+                                iure
+                                iusto optio</p>
+                        </div>
+                    </article>
+                    <article class="col-lg">
                         <img src="assets/img/avatar.png" alt="avatar" class="w-25 mr-3">
                         <div class="right-content">
                             <h5 class="font-weight-bold">Yochi Blanker</h5>
