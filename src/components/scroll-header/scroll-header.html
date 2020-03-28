@@ -11,33 +11,71 @@
     <nav>
         <section class="fixed border-shadow-scroll">
             <div class="container-fluid">
-                <div class="left-side-scroll d-flex align-items-center">
-                    <!-- <i class="fa fa-bars fa-2x mr-5"></i> -->
+                <div class="left-side-scroll d-flex align-items-center d-md-none">
                     <div class="list-links">
                         <ul class="list-unstyled flex-adjust-center">
                             <li>
-                                <a href="/"><i class="fa fa-home fa-lg"></i><span>Home</span></a>
+                                <a href="/"><i class="fa fa-home fa-lg"></i><span
+                                        class="font-weight-bold">Home</span></a>
                             </li>
                             <li>
                                 <a href="/src/pages/about/about-skeleton.html">
                                     <i class="fas fa-book-reader fa-lg"></i>
-                                    <span>About</span>
+                                    <span class="font-weight-bold">About</span>
                                 </a>
                             </li>
                             <li>
 
                                 <a href="/src/pages/ticketes/ticketes-skeleton.html"><i
-                                        class="fas fa-ticket-alt fa-lg"></i><span>Tickets</span></a>
+                                        class="fas fa-ticket-alt fa-lg"></i><span
+                                        class="font-weight-bold">Tickets</span></a>
                             </li>
                             <li>
 
                                 <a href="/src/pages/schedule/schedule-skeleton.html"><i
-                                        class="fas fa-address-book fa-lg"></i><span>Schedule</span></a>
+                                        class="fas fa-address-book fa-lg"></i><span
+                                        class="font-weight-bold">Schedule</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                </ul>
+
+                <!-- show after md -->
+                <div class="bottom-navbar d-none d-md-block ">
+                    <div class="container-fluid flex-adjust-center">
+                        <div class="left-side">
+                            <i class="fa fa-bars fa-2x d-md-none"></i>
+                            <a href="/">
+                                <img src="/assets/img/loachella-logo-secondary.svg" alt="logo-header"
+                                    class="d-none d-md-block">
+                            </a>
+                        </div>
+                        <div class="center-list d-none d-md-block">
+                            <ul class="list-unstyled flex-adjust-center">
+                                <li>
+                                    <a href="/src/pages/about/about-skeleton.html">
+                                        <span class="text-secondary-color font-weight-bold">About</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/src/pages/ticketes/ticketes-skeleton.html">
+                                        <span class="text-secondary-color font-weight-bold">Tickets</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/src/pages/schedule/schedule-skeleton.html">
+                                        <span class="text-secondary-color font-weight-bold">Schedule</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-primary btn-block campaign-button d-none d-lg-block">
+                            CC campaign</button>
+                    </div>
+                </div>
+
             </div>
         </section>
     </nav>
