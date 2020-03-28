@@ -32,8 +32,6 @@
   padding: 30px 0;
 }
 
-
-
 .step-bullet {
   padding-bottom: 20px;
   color: var(--primary-color);
@@ -147,9 +145,28 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .select-tickets .container-fluid,
+  .select-lunch {
+    margin: 0 auto;
+    width: 80%;
+  }
+
   .steps {
     /* border: 2px solid #e3e3e3; */
     border-radius: 100px;
-    margin: 0 15%;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .steps .steps-info {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .step-bullet {
+    padding-bottom: 0;
+    margin-right: 20px;
   }
 }
