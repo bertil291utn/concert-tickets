@@ -1,3 +1,7 @@
+ul {
+  margin: 0;
+}
+
 .flex-adjust-center {
   display: flex;
   justify-content: space-between;
@@ -18,17 +22,43 @@ a {
   z-index: 100;
 }
 
+.top-navbar {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 4px 0;
+}
+
+.top-navbar ul {
+  justify-content: flex-end;
+}
+
+.top-navbar li {
+  margin: 0 5px;
+}
+
+.top-navbar span {
+  font-size: 12px;
+}
+
+.top-navbar i {
+  color: #fff;
+}
 
 .left-side i {
   color: var(--third-color);
 }
 
-
-.right-side ul {
-  margin: 0;
+.center-list {
+  width: 40%;
+  margin-left: 20%;
 }
 
-.right-side li {
+.center-list ul {
+  margin: 0;
+  justify-content: space-around;
+}
+
+.center-list li {
   margin-right: 10px;
 }
 
@@ -36,15 +66,16 @@ a {
   position: absolute;
 }
 
-.contenedor .container-fluid {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.bottom-navbar .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .campaign-button {
   color: var(--secondary-color);
   border: 3px solid var(--primary-color);
   border-radius: 0;
+  width: 150px;
 }
 
 .border-shadow-header {
@@ -59,7 +90,7 @@ a {
 
 @media only screen and (min-width: 768px) {
   .behind-navbar {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   .fixed {
@@ -75,5 +106,10 @@ a {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
+  .top-navbar .container-fluid,
+  .bottom-navbar .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
