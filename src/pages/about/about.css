@@ -5,7 +5,7 @@ main section .container-fluid {
   padding-bottom: 30px;
 }
 
-article {
+.article-informacion {
   margin: 30px 0;
 }
 
@@ -51,8 +51,6 @@ article {
 .title {
   padding-bottom: 30px;
 }
-
-
 
 .global-summit {
   text-align: center;
@@ -122,5 +120,30 @@ article {
 @media only screen and (max-width: 576px) {
   .hero-section .container-fluid {
     padding-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .partners-info .list-unstyled {
+    margin: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-contenedor-info,
+  .global-summit,
+  .past-gs {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .past-gs .background-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .past-gs .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
