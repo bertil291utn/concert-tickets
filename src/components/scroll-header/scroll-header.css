@@ -7,6 +7,12 @@
   z-index: 100;
 }
 
+.flex-adjust-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .left-side-scroll {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -20,4 +26,10 @@
   box-shadow: -5px -2px 14px 6px #ee523c;
 }
 
+.list-links li {
+  margin: 12px;
+}
 
+.list-links i {
+  margin-right: 10px;
+}
