@@ -18,18 +18,11 @@ a {
   z-index: 100;
 }
 
-.left-side {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
 .left-side i {
   color: var(--third-color);
 }
 
-.left-side img {
-  padding: 10px;
-}
 
 .right-side ul {
   margin: 0;
@@ -41,6 +34,11 @@ a {
 
 .contenedor {
   position: absolute;
+}
+
+.contenedor .container-fluid {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .campaign-button {
