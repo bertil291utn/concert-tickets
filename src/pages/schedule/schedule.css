@@ -28,9 +28,6 @@
   padding-bottom: 50px;
 }
 
-.schedule section {
-  padding: 30px;
-}
 
 .breadcrum {
   display: flex;
@@ -81,7 +78,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 0;
 }
 
 .indications li {
@@ -138,6 +134,15 @@
   padding: 10px 0;
 }
 
+.work-sharing,
+.days-button {
+  padding: 30px;
+}
+
+.schedule-table {
+  padding:30px 0 ;
+}
+
 /* media queries*/
 
 @media only screen and (min-width: 480px) {
@@ -188,6 +193,8 @@
   }
 }
 
+
+
 @media only screen and (min-width: 992px) {
   .days-button,
   .work-sharing,
@@ -201,7 +208,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   .articulos-contenido .activity {
     width: 32%;
   }
