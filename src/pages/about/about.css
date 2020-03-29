@@ -44,7 +44,13 @@ main section .container-fluid {
   text-align: center;
 }
 
-.bottom-info-hero .email {
+.bottom-info-hero a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.bottom-info-hero .email:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
