@@ -122,6 +122,15 @@ article {
   margin: 10px;
 }
 
+.main-program a:hover {
+  color: var(--primary-color);
+}
+
+.articles-content article:hover {
+  cursor: pointer;
+  border: 1px solid var(--third-color);
+}
+
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 576px) {
