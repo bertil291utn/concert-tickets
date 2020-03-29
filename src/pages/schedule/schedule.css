@@ -130,13 +130,16 @@
   padding: 10px 0;
 }
 
-.ticket-botones button:hover {
+.ticket-botones button:hover,
+.select-menus-button:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
 
 .ticket-botones button:focus,
-.ticket-botones button:active {
+.ticket-botones button:active,
+.select-menus-button:active,
+.select-menus-button:focus {
   outline: none !important;
   background-color: var(--primary-color) !important;
   box-shadow: 0 0 0 0.2rem #ee523c5c !important;
