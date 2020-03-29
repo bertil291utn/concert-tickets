@@ -28,7 +28,6 @@
   padding-bottom: 50px;
 }
 
-
 .breadcrum {
   display: flex;
   align-items: center;
@@ -43,6 +42,7 @@
 }
 
 .popup {
+  display: none;
   position: absolute;
   top: 10%;
   left: 60%;
@@ -119,10 +119,6 @@
   margin-top: 20px;
 }
 
-.question-tag .text-place {
-  text-decoration: underline;
-}
-
 .select-menus-button {
   background-color: var(--primary-color);
   border-color: unset;
@@ -134,13 +130,43 @@
   padding: 10px 0;
 }
 
+.ticket-botones button:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.ticket-botones button:focus,
+.ticket-botones button:active {
+  outline: none !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
 .work-sharing,
 .days-button {
   padding: 30px;
 }
 
 .schedule-table {
-  padding:30px 0 ;
+  padding: 30px 0;
+}
+
+.breadcrum a:hover {
+  color: var(--primary-color);
+}
+
+.work-sharing:hover {
+  cursor: pointer;
+}
+
+.work-sharing:hover .popup {
+  display: block;
+}
+
+.schedule-table a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 
 /* media queries*/
@@ -192,8 +218,6 @@
     margin: 2px;
   }
 }
-
-
 
 @media only screen and (min-width: 992px) {
   .days-button,
