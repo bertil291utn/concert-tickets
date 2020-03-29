@@ -82,6 +82,27 @@ a {
   box-shadow: -5px -2px 14px 6px #ee523c;
 }
 
+.center-list a:hover {
+  text-decoration: none;
+}
+
+.center-list a:hover span {
+  color: var(--primary-color);
+}
+
+.campaign-button:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+}
+
+.campaign-button:focus,
+.campaign-button:active {
+  outline: none !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
 @media only screen and (max-width: 576px) {
   .border-shadow-header {
     box-shadow: none !important;
