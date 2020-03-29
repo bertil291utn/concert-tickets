@@ -82,11 +82,13 @@ a {
   box-shadow: -5px -2px 14px 6px #ee523c;
 }
 
-.center-list a:hover {
+.center-list a:hover,
+.top-navbar a:hover {
   text-decoration: none;
 }
 
-.center-list a:hover span {
+.center-list a:hover span ,
+.top-navbar a:hover span {
   color: var(--primary-color);
 }
 
