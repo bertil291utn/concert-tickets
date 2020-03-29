@@ -34,3 +34,9 @@
 .list-links i {
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 461px) {
+  .list-links i {
+    margin-right: 0;
+  }
+}
