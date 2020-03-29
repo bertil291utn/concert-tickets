@@ -163,6 +163,26 @@
   }
 }
 
+.tabla-article button:hover,
+.select-lunch button:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.tabla-article button:focus,
+.tabla-article button:active,
+.select-lunch button:focus,
+.select-lunch button:active {
+  outline: none !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
+.breadcrum a:hover {
+  color: var(--primary-color);
+}
+
 @media only screen and (min-width: 992px) {
   .select-tickets .container-fluid,
   .select-lunch {
