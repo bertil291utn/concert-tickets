@@ -136,11 +136,19 @@ article {
   border: 2px solid var(--third-color);
 }
 
+.left-content h5 {
+  margin: 0;
+}
+
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 576px) {
   .hero-section .container-fluid {
     padding-top: 80px;
+  }
+
+  .articles-content-info h5 {
+    width: 100px;
   }
 }
 
@@ -161,6 +169,11 @@ article {
 
   .articles-content-info .left-content {
     flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .left-content i {
+    margin-bottom: 10px;
   }
 
   .main-program .articles-content {
@@ -198,11 +211,6 @@ article {
 @media only screen and (min-width: 1200px) {
   .articles-content article {
     width: 18%;
-  }
-
-  .main-program .articles-content {
-    width: 90%;
-    margin: 0 auto;
   }
 
   .right-content {
