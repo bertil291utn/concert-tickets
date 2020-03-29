@@ -130,6 +130,7 @@
 .select-menus-button {
   background-color: var(--primary-color);
   border-color: unset;
+  width: 75%;
 }
 
 .ticket-botones button {
@@ -188,6 +189,19 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .days-button,
+  .work-sharing,
+  .schedule-table,
+  hr {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .schedule section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   .articulos-contenido .activity {
     width: 32%;
   }
@@ -217,6 +231,9 @@
 
   .bottom-info {
     align-items: center;
-    
+  }
+
+  .select-menus-button {
+    width: 40%;
   }
 }
