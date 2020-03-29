@@ -157,6 +157,16 @@ article {
 }
 
 @media only screen and (min-width: 992px) {
+  .hero-section .container-fluid {
+    padding-left: 150px;
+    padding-right: 40%;
+  }
+
+  .section-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .articles-content article {
     width: 32%;
   }
@@ -172,11 +182,6 @@ article {
 }
 
 @media only screen and (min-width: 1200px) {
-  .hero-section .container-fluid {
-    padding-left: 150px;
-    padding-right: 40%;
-  }
-
   .articles-content article {
     width: 18%;
   }
@@ -186,12 +191,6 @@ article {
     margin: 0 auto;
   }
 
-  .section-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  
   .right-content {
     font-size: 12px;
   }

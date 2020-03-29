@@ -129,19 +129,17 @@ main section .container-fluid {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   .hero-contenedor-info,
   .global-summit,
-  .past-gs {
-    margin: 0 auto;
-    width: 80%;
-  }
-
+  .past-gs,
   .past-gs .background-image {
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
   }
+}
 
+@media only screen and (min-width: 1200px) {
   .past-gs .container-fluid {
     padding-left: 0;
     padding-right: 0;
