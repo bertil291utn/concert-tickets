@@ -109,6 +109,20 @@ article .articles-content-info {
   border-color: #e7e7e7;
 }
 
+.more-button:focus,
+.more-button:active {
+  outline: none !important;
+  color: #fff;
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
+.more-button:focus i,
+.more-button:active i {
+  color: #fff;
+}
+
 .featured-speakers button {
   padding: 15px 0;
 }
