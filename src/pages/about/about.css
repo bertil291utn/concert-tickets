@@ -80,7 +80,11 @@ main section .container-fluid {
 }
 
 #first-article {
-  background-image: url(/assets/img/hero-section.png);
+  background-image: url(/assets/img/events/santiago.jpg);
+}
+
+#second-article {
+  background-image: url(/assets/img/events/madrid.jpg);
 }
 
 .opacity-past-gs {
