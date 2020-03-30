@@ -81,8 +81,12 @@
 }
 
 .indications li {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
+}
+
+.indications span {
+  font-weight: 600;
 }
 
 .element-title {
@@ -105,8 +109,11 @@
   border-radius: 5px;
   border: 1px solid #e3e3e3;
   padding: 10px;
-  margin-bottom: 20px;
   width: 100%;
+}
+
+.articulos-contenido .activity {
+  margin-bottom: 20px;
 }
 
 .text-place {
@@ -172,6 +179,29 @@
   text-decoration: underline;
 }
 
+.schedule-table i {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.schedule-table .concert {
+  background-color: #8aa3cc;
+}
+.schedule-table .art-expo {
+  background-color: var(--primary-color);
+}
+.schedule-table .initiation {
+  background-color: #aeaadd;
+}
+.schedule-table .dome {
+  background-color: #97d9d6;
+}
+
+.bottom-info i {
+  color: #000;
+}
+
 /* media queries*/
 
 @media only screen and (min-width: 480px) {
@@ -206,7 +236,7 @@
   }
 
   .table-schedule-element {
-    margin-top: 80px;
+    margin-top: 90px;
   }
 
   .articulos-contenido {
@@ -218,7 +248,6 @@
 
   .articulos-contenido .activity {
     width: 49%;
-    margin: 2px;
   }
 }
 
@@ -234,10 +263,6 @@
   .schedule section {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .articulos-contenido .activity {
-    width: 32%;
   }
 
   .table-schedule-element article {
@@ -269,5 +294,14 @@
 
   .select-menus-button {
     width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .articulos-contenido .activity {
+    width: 32%;
+  }
+  .articulos-contenido .activity {
+    margin-bottom: 0;
   }
 }
