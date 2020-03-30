@@ -1,10 +1,11 @@
 .fixed {
   position: fixed;
-  top: 0;
+  top: 30%;
   right: 0;
   background-color: #fff;
   width: 100%;
   z-index: 100;
+  transition: top 0.3s linear;
 }
 
 .flex-adjust-center {
@@ -23,7 +24,10 @@
 }
 
 .border-shadow-scroll {
+  /* position: absolute; */
   box-shadow: -5px -2px 14px 6px #ee523c;
+  
+  /* margin-top: 30%; */
 }
 
 .list-links li {
