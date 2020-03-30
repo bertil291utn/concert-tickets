@@ -23,10 +23,19 @@
   color: var(--secondary-color);
 }
 
+.left-side-scroll a:hover i {
+  color: var(--primary-color);
+}
+
+.left-side-scroll a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 .border-shadow-scroll {
   /* position: absolute; */
   box-shadow: -5px -2px 14px 6px #ee523c;
-  
+
   /* margin-top: 30%; */
 }
 
