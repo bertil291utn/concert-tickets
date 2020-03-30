@@ -188,12 +188,15 @@
 .schedule-table .concert {
   background-color: #8aa3cc;
 }
+
 .schedule-table .art-expo {
   background-color: var(--primary-color);
 }
+
 .schedule-table .initiation {
   background-color: #aeaadd;
 }
+
 .schedule-table .dome {
   background-color: #97d9d6;
 }
@@ -202,7 +205,7 @@
   color: #000;
 }
 
-/* media queries*/
+/* media queries */
 
 @media only screen and (min-width: 480px) {
   .bottom-info {
@@ -300,8 +303,6 @@
 @media only screen and (min-width: 1300px) {
   .articulos-contenido .activity {
     width: 32%;
-  }
-  .articulos-contenido .activity {
     margin-bottom: 0;
   }
 }

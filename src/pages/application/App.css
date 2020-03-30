@@ -66,6 +66,7 @@ article .articles-content-info {
   padding: 30px 10px;
   border: 0;
   color: #fff;
+  font-size: 24px;
 }
 
 .featured-speaking-content article {
@@ -107,6 +108,12 @@ article .articles-content-info {
 .more-button {
   color: unset;
   border-color: #e7e7e7;
+}
+
+.more-button:hover {
+  color: unset;
+  background-color: unset;
+  border-color: var(--primary-color);
 }
 
 .more-button:focus,
@@ -177,6 +184,11 @@ article .articles-content-info {
 
 .left-content h5 {
   margin: 0;
+}
+
+.articles-content article:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
 }
 
 /* MEDIA QUERYS */

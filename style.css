@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Lato", Helvetica !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .titles-font-family {
@@ -56,24 +56,10 @@ p {
   margin: 0 !important;
 }
 
-.btn-outline-primary:hover
-{
-  color: unset;
-  background-color: unset;
-  border-color: var(--primary-color);
-}
-
-.btn-outline-primary:not(:disabled):not(.disabled):active 
-{
+.btn-outline-primary:not(:disabled):not(.disabled):active {
   color: #fff;
   background-color: var(--primary-color);
-  /* border-color: var(--primary-color); */
 }
-
-.btn-outline-primary:focus {
-  box-shadow: unset;
-}
-
 
 .section-title {
   margin-bottom: 30px;
@@ -88,4 +74,8 @@ p {
 .section-title h4 {
   text-align: center;
   font-weight: 600;
+}
+
+.hidden-section-title {
+  display: none;
 }

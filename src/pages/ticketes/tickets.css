@@ -70,7 +70,7 @@
   position: relative;
 }
 
-#diamond-element:after {
+#diamond-element::after {
   content: "";
   position: absolute;
   left: -25px;
@@ -203,7 +203,7 @@
   display: block;
 }
 
-/* media queries*/
+/* media queries */
 
 @media only screen and (max-width: 768px) {
   .border-shadow-header {

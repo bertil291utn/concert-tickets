@@ -23,6 +23,10 @@
   color: var(--secondary-color);
 }
 
+.list-links i {
+  margin-right: 10px;
+}
+
 .left-side-scroll a:hover i {
   color: var(--primary-color);
 }
@@ -42,10 +46,6 @@
 .list-links li {
   margin: 12px;
   text-align: center;
-}
-
-.list-links i {
-  margin-right: 10px;
 }
 
 @media only screen and (max-width: 461px) {

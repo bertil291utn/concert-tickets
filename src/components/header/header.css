@@ -87,7 +87,7 @@ a {
   text-decoration: none;
 }
 
-.center-list a:hover span ,
+.center-list a:hover span,
 .top-navbar a:hover span {
   color: var(--primary-color);
 }
