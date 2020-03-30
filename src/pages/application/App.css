@@ -3,6 +3,11 @@ body {
   overflow-x: hidden;
 }
 
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
 .hero-section {
   background-image: url(/assets/img/hero-section.png);
   background-position: center;
@@ -65,9 +70,12 @@ article {
 }
 
 .featured-speaking-content article {
+  margin: 30px 0;
+}
+
+.featured-speaking-content a {
   display: flex;
   align-items: center;
-  margin: 30px 0;
 }
 
 .featured-speaking-content hr {
