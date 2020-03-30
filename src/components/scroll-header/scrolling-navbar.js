@@ -10,11 +10,11 @@ $(function () {
             $('#scroll-header .fixed').css('top', '0');
             if (window.pageYOffset <= 150) {
                 $('#scroll-header').css('visibility', 'hidden');
-                $('#scroll-header .fixed').css('top', '30%');
+                $('#scroll-header .fixed').css('top', '50%');
             }
         } else {
             $('#scroll-header').css('visibility', 'hidden');
-            $('#scroll-header .fixed').css('top', '30%');
+            $('#scroll-header .fixed').css('top', '50%');
         }
         prevScrollpos = currentScrollPos;
     }
