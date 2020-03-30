@@ -34,8 +34,7 @@ a:hover {
 }
 
 .section-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 article {
@@ -77,10 +76,20 @@ article .articles-content-info {
   transition: width 0.6s ease;
 }
 
-.featured-speaking-content a:hover img {
+.featured-speaking-content a img:hover {
   width: 50% !important;
 }
 
+.gray-square {
+  top: -10%;
+  left: 0;
+  width: 12%;
+  z-index: -1;
+}
+
+.featured-speaking-content a img:hover + .gray-square {
+  width: 24%;
+}
 
 .featured-speaking-content a {
   display: flex;
