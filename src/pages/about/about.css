@@ -127,6 +127,10 @@ main section .container-fluid {
   margin: 10px;
 }
 
+
+.partners-info i:hover {
+  color: #fff;
+}
 /* media query*/
 
 @media only screen and (max-width: 576px) {
