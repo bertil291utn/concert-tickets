@@ -119,6 +119,7 @@
 }
 
 .select-menus-button {
+  padding: 20px 0;
   background-color: var(--primary-color);
   border-color: unset;
 }

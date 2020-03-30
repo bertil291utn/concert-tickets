@@ -35,6 +35,7 @@ a:hover {
 
 .section-content {
   padding: 30px;
+  text-align: center;
 }
 
 article {
@@ -57,13 +58,9 @@ article .articles-content-info {
   padding-bottom: 20px;
 }
 
-.main-program-content .button {
-  margin: 0 60px;
-}
-
-.button button {
-  width: 100%;
+.join-boton {
   padding: 30px 10px;
+  width: 75%;
   border: 0;
   color: #fff;
   font-size: 24px;

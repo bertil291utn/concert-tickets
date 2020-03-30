@@ -127,9 +127,10 @@
 }
 
 .select-menus-button {
+  padding: 30px 0;
+  width: 75%;
   background-color: var(--primary-color);
   border-color: unset;
-  width: 75%;
 }
 
 .ticket-botones button {
