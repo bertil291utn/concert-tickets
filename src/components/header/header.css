@@ -105,7 +105,7 @@ a {
   border-color: var(--primary-color) !important;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .border-shadow-header {
     box-shadow: none !important;
   }

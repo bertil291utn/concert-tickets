@@ -211,7 +211,7 @@
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .border-shadow-header {
     box-shadow: -5px -2px 14px 6px #ee523c !important;
     width: 100%;
