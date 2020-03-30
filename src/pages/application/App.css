@@ -38,6 +38,10 @@ a:hover {
   padding-bottom: 30px;
 }
 
+article {
+  margin: 10px 0;
+}
+
 .main-program article {
   background-color: #3a3d44;
 }
@@ -54,10 +58,6 @@ article .articles-content-info {
   padding-bottom: 20px;
 }
 
-article {
-  margin: 10px 0;
-}
-
 .main-program-content .button {
   margin: 0 60px;
 }
@@ -71,6 +71,12 @@ article {
 
 .featured-speaking-content article {
   margin: 30px 0;
+  transition: padding 0.4s ease;
+}
+
+.featured-speaking-content article:hover {
+  padding: 30px;
+  border: 1px solid var(--primary-color);
 }
 
 .featured-speaking-content a {
@@ -129,6 +135,10 @@ article {
   margin: 10px;
 }
 
+.partners-info i:hover {
+  color: #fff;
+}
+
 .main-program span:hover {
   text-decoration: underline;
   color: var(--third-color);
@@ -139,14 +149,19 @@ article {
   text-decoration: none;
 }
 
+.left-content h5 {
+  margin: 0;
+}
+
+.articles-content article {
+  transition: border 0.6s ease;
+}
+
 .articles-content article:hover {
   cursor: pointer;
   border: 2px solid var(--third-color);
 }
 
-.left-content h5 {
-  margin: 0;
-}
 
 /* MEDIA QUERYS */
 
