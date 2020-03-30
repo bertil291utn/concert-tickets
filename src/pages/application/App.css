@@ -71,13 +71,16 @@ article .articles-content-info {
 
 .featured-speaking-content article {
   margin: 30px 0;
-  transition: padding 0.4s ease;
 }
 
-.featured-speaking-content article:hover {
-  padding: 30px;
-  border: 1px solid var(--primary-color);
+.featured-speaking-content a img {
+  transition: width 0.6s ease;
 }
+
+.featured-speaking-content a:hover img {
+  width: 50% !important;
+}
+
 
 .featured-speaking-content a {
   display: flex;
@@ -152,16 +155,6 @@ article .articles-content-info {
 .left-content h5 {
   margin: 0;
 }
-
-.articles-content article {
-  transition: border 0.6s ease;
-}
-
-.articles-content article:hover {
-  cursor: pointer;
-  border: 2px solid var(--third-color);
-}
-
 
 /* MEDIA QUERYS */
 
