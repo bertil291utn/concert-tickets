@@ -12,6 +12,10 @@
   margin: 20px 0;
 }
 
+.tickets label {
+  margin: 0;
+}
+
 /* main */
 
 .select-tickets {
@@ -176,12 +180,15 @@
   position: absolute;
   display: none;
   text-align: center;
-  padding: 30px;
   width: 40%;
-  background-color: var(--third-color);
-  border-radius: 10px;
+  background-color: #f6f6f6;
+  border: 1px solid #e3e3e3;
   top: -200%;
   left: 90%;
+}
+
+.info-the-dome {
+  padding: 0 30px 30px 30px;
 }
 
 .the-dome-pop p {

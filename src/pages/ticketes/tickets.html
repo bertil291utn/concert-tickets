@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/src/pages/ticketes/Tickets.js"></script>
 </head>
 
 <body>
@@ -89,10 +90,15 @@
                     <div class="section-title position-relative">
                         <h4>The Dome</h4>
                         <hr>
-                        <div class="the-dome-pop">
-                            <img src="/assets/img/dome.png" alt="the-dome" class="w-100">
-                            <h5 class="font-weight-bold my-2">The Dome</h5>
-                            <p class="text-justify">Get your late night groove on in The Dome Dance party nightly. The music rages on, yet silently, starting at 1am. Stop by early on Thur only for the Vintage Merch Sale to get your oldchella on! Check back in late March for more details.</p>
+                        <div class="the-dome-pop rounded-top">
+                            <img src="/assets/img/dome.png" alt="the-dome" class="w-100 rounded-top">
+                            <div class="info-the-dome">
+                                <h5 class="font-weight-bold my-3">The Dome</h5>
+                                <p class="text-justify">Get your late night groove on in The Dome Dance party nightly.
+                                    The music rages on, yet silently, starting at 1am. Stop by early on Thur only for
+                                    the Vintage Merch Sale to get your oldchella on! Check back in late March for more
+                                    details.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="steps">
@@ -114,59 +120,72 @@
                         <div class="menu-contenido">
                             <ul class="list-unstyled">
                                 <li class="color-dome-background color-one">
-                                    <span>Menu 1 </span>
-                                    <input type="radio" name="menu1" id="menu1">
+                                    <label for="blue-w">Blue </label>
+                                    <input type="radio" name="wednesday" id="blue-w" value="blue">
                                 </li>
                                 <li class="color-dome-background color-two">
-                                    <span>Menu 2 </span>
-                                    <input type="radio" name="menu1" id="menu1">
+                                    <label for="red-w">Red </label>
+                                    <input type="radio" name="wednesday" id="red-w" value="red">
                                 </li>
                                 <li class="color-dome-background color-three">
-                                    <span>Menu 3 </span>
-                                    <input type="radio" name="menu1" id="menu1">
+                                    <label for="pink-w">Pink </label>
+                                    <input type="radio" name="wednesday" id="pink-w" value="pink">
                                 </li>
                                 <li class="color-dome-background color-four">
-                                    <span>Menu 4 </span>
-                                    <input type="radio" name="menu1" id="menu1">
+                                    <label for="yellow-w">Yellow </label>
+                                    <input type="radio" name="wednesday" id="yellow-w" value="yellow">
                                 </li>
                                 <li class="color-dome-background color-five">
-                                    <span>Menu 5 </span>
-                                    <input type="radio" name="menu1" id="menu1">
+                                    <label for="green-w">Green </label>
+                                    <input type="radio" name="wednesday" id="green-w" value="green">
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="menus-thing">
-                        <div class="top-menus"> <span>16 Wednesday</span></div>
-                        <div class="menu-contenido">
-                            <ul class="list-unstyled">
-                                <li class="color-dome-background color-one">
-                                    <span>Menu 1 </span>
-                                    <input type="radio" name="menu1" id="menu1">
-                                </li>
-                                <li class="color-dome-background color-two">
-                                    <span>Menu 2 </span>
-                                    <input type="radio" name="menu1" id="menu1">
-                                </li>
-                                <li class="color-dome-background color-three">
-                                    <span>Menu 3 </span>
-                                    <input type="radio" name="menu1" id="menu1">
-                                </li>
-                                <li class="color-dome-background color-four">
-                                    <span>Menu 4 </span>
-                                    <input type="radio" name="menu1" id="menu1">
-                                </li>
-                                <li class="color-dome-background color-five">
-                                    <span>Menu 5 </span>
-                                    <input type="radio" name="menu1" id="menu1">
-                                </li>
-                            </ul>
+                    <form>
+                        <div class="menus-thing">
+                            <div class="top-menus"> <span>16 Thursday</span></div>
+                            <div class="menu-contenido">
+                                <ul class="list-unstyled">
+                                    <li class="color-dome-background color-one">
+                                        <label for="blue-t">Blue </label>
+                                        <input type="radio" name="thursday" id="blue-t" value="blue">
+                                    </li>
+                                    <li class="color-dome-background color-two">
+                                        <label for="red-t">Red </label>
+                                        <input type="radio" name="thursday" id="red-t" value="red">
+                                    </li>
+                                    <li class="color-dome-background color-three">
+                                        <label for="pink-t">Pink </label>
+                                        <input type="radio" name="thursday" id="pink-t" value="pink">
+                                    </li>
+                                    <li class="color-dome-background color-four">
+                                        <label for="yellow-t">Yellow </label>
+                                        <input type="radio" name="thursday" id="yellow-t" value="yellow">
+                                    </li>
+                                    <li class="color-dome-background color-five">
+                                        <label for="green-t">Green </label>
+                                        <input type="radio" name="thursday" id="green-t" value="green">
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        <button type="button" onclick="selectHeadphones()"
+                            class="btn btn-primary btn-lg btn-block select-menus-button mt-5 mx-auto w-75">Select
+                            headphone
+                            color</button>
+
+                    </form>
+
+                    <div class="alert alert-success mt-5 d-none" role="alert" id="alert-select-headphones">
+                        <strong>Yaasss</strong> Your headphones has been selected, now enjoy the ride.
+                    </div>
+
+                    <div class="alert alert-danger d-none mt-5" role="alert" id="alert-error-headphones">
+                        You have to selected your headphones color for at least one day!
                     </div>
                 </div>
 
-                <button type="button"
-                    class="btn btn-primary btn-lg btn-block select-menus-button mt-5 mx-auto w-75">Select headphone color</button>
 
             </div>
         </section>
