@@ -75,7 +75,7 @@ article {
 
 .featured-speaking-content a {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .featured-speaking-content hr {
