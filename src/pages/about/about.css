@@ -5,6 +5,10 @@ main section .container-fluid {
   padding-bottom: 30px;
 }
 
+.articles-section {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .article-informacion {
   margin: 30px 0;
 }
