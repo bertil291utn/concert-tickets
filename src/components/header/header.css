@@ -88,7 +88,8 @@ a {
 }
 
 .center-list a:hover span,
-.top-navbar a:hover span {
+.top-navbar a:hover span,
+.top-navbar a:hover i {
   color: var(--primary-color);
 }
 
