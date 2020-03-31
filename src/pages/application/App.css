@@ -31,11 +31,11 @@ a:hover {
 .main-program {
   background-color: #272a31;
   color: #fff;
+  text-align: center;
 }
 
 .section-content {
   padding: 30px;
-  text-align: center;
 }
 
 article {
