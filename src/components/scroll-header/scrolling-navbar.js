@@ -5,7 +5,7 @@ $(function () {
     navTwo.classList.add("d-none")
     function myFunction() {
 
-        if (window.pageYOffset >= 100) {
+        if (window.pageYOffset >= 300) {
             navTwo.classList.remove("d-none")
         }
         else {
