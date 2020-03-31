@@ -1,11 +1,10 @@
 .fixed {
   position: fixed;
-  top: 50%;
+  top: 0;
   right: 0;
   background-color: #fff;
   width: 100%;
   z-index: 100;
-  transition: top 0.1s linear;
 }
 
 .flex-adjust-center {

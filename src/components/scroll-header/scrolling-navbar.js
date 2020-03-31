@@ -1,21 +1,15 @@
 $(function () {
-    //scrolls for the navbar
-    var prevScrollpos = window.pageYOffset;
-    $('#scroll-header').css('visibility', 'hidden');
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            //if last sccroll pos is down I mean is great than the current position remove display none
-            $('#scroll-header').css('visibility', 'visible');
-            $('#scroll-header .fixed').css('top', '0');
-            if (window.pageYOffset <= 150) {
-                $('#scroll-header').css('visibility', 'hidden');
-                $('#scroll-header .fixed').css('top', '50%');
-            }
-        } else {
-            $('#scroll-header').css('visibility', 'hidden');
-            $('#scroll-header .fixed').css('top', '50%');
+    window.onscroll = function () { myFunction() };
+
+    var navTwo = document.getElementById("scroll-header");
+    navTwo.classList.add("d-none")
+    function myFunction() {
+
+        if (window.pageYOffset >= 100) {
+            navTwo.classList.remove("d-none")
         }
-        prevScrollpos = currentScrollPos;
+        else {
+            navTwo.classList.add("d-none")
+        }
     }
 });
