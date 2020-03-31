@@ -219,6 +219,7 @@
   .border-shadow-header {
     box-shadow: -5px -2px 14px 6px #ee523c !important;
     width: 100%;
+    min-width: 375px;
   }
 
   .schedule {
