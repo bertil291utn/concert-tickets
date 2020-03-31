@@ -31,7 +31,7 @@ a:hover {
 .main-program {
   background-color: #272a31;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .section-content {
@@ -64,6 +64,10 @@ article .articles-content-info {
   border: 0;
   color: #fff;
   font-size: 24px;
+}
+
+.center-links {
+  text-align: center;
 }
 
 .featured-speaking-content article {
