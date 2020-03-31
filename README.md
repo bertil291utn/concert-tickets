@@ -1,6 +1,6 @@
 # Loachella web page design - HTML & CSS Capstone project
 
-> Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. Building this project is very important for you because
+> This project was built for the HTML & CSS Capstone Project is based on an online website for a music festival. With about, tickets and schedule sections (pages), so far it's finished but just in the frontend part, later I'm going to finish the backend for this web site.
 
 ## Live demo
 
@@ -13,7 +13,7 @@
 | ![image](https://user-images.githubusercontent.com/24902525/77964398-99472100-72a4-11ea-8a2e-d6bc6e122f3a.png) |
 |![image](https://user-images.githubusercontent.com/24902525/77964530-ce537380-72a4-11ea-892b-e471b21fc2c5.png)|
 
-The project you are going to build for the HTML & CSS Capstone Project is based on an online website for a music festival. You should follow the given design of the website, but you must personalise the content. 
+
 
 ## Built With
 
