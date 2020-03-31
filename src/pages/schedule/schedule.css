@@ -1,0 +1,310 @@
+.anchor-tags {
+  color: unset;
+  text-decoration: none;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.bg-purple {
+  background-color: #e1def9;
+}
+
+.bg-gray {
+  background-color: #edf0f5;
+}
+
+.bg-orange {
+  background-color: #ffe3db;
+}
+
+.bg-aqua {
+  background-color: #daf0ee;
+}
+
+.schedule {
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+
+.breadcrum {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--secondary-color);
+}
+
+.schedule-button {
+  color: var(--secondary-color);
+  background-color: #ebebeb;
+  border-color: #e3e3e3;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  width: 350px;
+}
+
+.popup-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.popup span {
+  font-size: 10px;
+}
+
+.indications {
+  border: 1px solid #e3e3e3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.indications ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.indications li {
+  padding: 5px;
+  text-align: center;
+}
+
+.indications span {
+  font-weight: 600;
+}
+
+.element-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.table-schedule-element {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+}
+
+.table-schedule-element article {
+  padding: 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.activity {
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  width: 100%;
+}
+
+.articulos-contenido .activity {
+  margin-bottom: 20px;
+}
+
+.text-place {
+  font-size: 14px;
+}
+
+.bottom-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.select-menus-button {
+  padding: 30px 0;
+  width: 75%;
+  background-color: var(--primary-color);
+  border-color: unset;
+}
+
+.ticket-botones button {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.ticket-botones button:hover,
+.select-menus-button:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.ticket-botones button:focus,
+.ticket-botones button:active,
+.select-menus-button:active,
+.select-menus-button:focus {
+  outline: none !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
+.work-sharing,
+.days-button {
+  padding: 30px;
+}
+
+.schedule-table {
+  padding: 30px 0;
+}
+
+.breadcrum a:hover {
+  color: var(--primary-color);
+}
+
+.work-sharing:hover {
+  cursor: pointer;
+}
+
+.work-sharing:hover .popup {
+  display: block;
+}
+
+.schedule-table a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.schedule-table i {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.schedule-table .concert {
+  background-color: #8aa3cc;
+}
+
+.schedule-table .art-expo {
+  background-color: var(--primary-color);
+}
+
+.schedule-table .initiation {
+  background-color: #aeaadd;
+}
+
+.schedule-table .dome {
+  background-color: #97d9d6;
+}
+
+.bottom-info i {
+  color: #000;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 480px) {
+  .bottom-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .border-shadow-header {
+    box-shadow: -5px -2px 14px 6px #ee523c !important;
+    width: 100%;
+    min-width: 375px;
+  }
+
+  .schedule {
+    padding-top: 80px;
+  }
+
+  .left-side i {
+    color: var(--secondary-color) !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .schedule {
+    padding-top: 40px;
+  }
+
+  .indications {
+    float: right;
+  }
+
+  .table-schedule-element {
+    margin-top: 90px;
+  }
+
+  .articulos-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .articulos-contenido .activity {
+    width: 49%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .days-button,
+  .work-sharing,
+  .schedule-table,
+  hr {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .schedule section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .table-schedule-element article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  article > .font-weight-bold {
+    width: 200px;
+  }
+
+  .break-text {
+    flex: 1;
+    text-align: center;
+  }
+
+  article > .activity {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text-place {
+    font-size: 12px;
+  }
+
+  .bottom-info {
+    align-items: center;
+  }
+
+  .select-menus-button {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .articulos-contenido .activity {
+    width: 32%;
+    margin-bottom: 0;
+  }
+}

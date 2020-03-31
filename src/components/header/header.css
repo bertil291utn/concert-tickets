@@ -1,0 +1,139 @@
+ul {
+  margin: 0;
+}
+
+.flex-adjust-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: unset;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.top-navbar {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 4px 0;
+}
+
+.top-navbar ul {
+  justify-content: flex-end;
+}
+
+.top-navbar li {
+  margin: 0 5px;
+}
+
+.top-navbar span {
+  font-size: 12px;
+}
+
+.top-navbar i {
+  color: #fff;
+}
+
+.left-side i {
+  color: var(--third-color);
+}
+
+.center-list {
+  width: 40%;
+  margin-left: 20%;
+}
+
+.center-list ul {
+  margin: 0;
+  justify-content: space-around;
+}
+
+.center-list li {
+  margin-right: 10px;
+}
+
+.contenedor {
+  position: absolute;
+}
+
+.bottom-navbar .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.campaign-button {
+  color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  border-radius: 0;
+  width: 150px;
+}
+
+.border-shadow-header {
+  box-shadow: -5px -2px 14px 6px #ee523c;
+}
+
+.center-list a:hover,
+.top-navbar a:hover {
+  text-decoration: none;
+}
+
+.center-list a:hover span,
+.top-navbar a:hover span,
+.top-navbar a:hover i {
+  color: var(--primary-color);
+}
+
+.campaign-button:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+}
+
+.campaign-button:focus,
+.campaign-button:active {
+  outline: none !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .border-shadow-header {
+    box-shadow: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .behind-navbar {
+    margin-top: 80px;
+  }
+
+  .fixed {
+    background-color: white;
+  }
+
+  .contenedor {
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .top-navbar .container-fluid,
+  .bottom-navbar .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

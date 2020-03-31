@@ -1,0 +1,270 @@
+/* MAIN CONTENT */
+body {
+  overflow-x: hidden;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url(/assets/img/hero-section.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.hero-section .container-fluid {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.info-hero {
+  border: 2px solid #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.main-program {
+  background-color: #272a31;
+  color: #fff;
+}
+
+.section-content {
+  padding: 30px;
+}
+
+article {
+  margin: 10px 0;
+}
+
+.main-program article {
+  background-color: #3a3d44;
+}
+
+.main-program .articles-content {
+  padding: 30px 0;
+}
+
+article .articles-content-info {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.join-boton {
+  padding: 30px 10px;
+  width: 75%;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+.center-links {
+  text-align: center;
+}
+
+.featured-speaking-content article {
+  margin: 30px 0;
+}
+
+.featured-speaking-content a img {
+  transition: width 0.6s ease;
+}
+
+.featured-speaking-content a img:hover {
+  width: 50% !important;
+}
+
+.gray-square {
+  top: -10%;
+  left: 0;
+  width: 12%;
+  z-index: -1;
+}
+
+.featured-speaking-content a img:hover + .gray-square {
+  width: 24%;
+}
+
+.featured-speaking-content a {
+  display: flex;
+  align-items: flex-start;
+}
+
+.featured-speaking-content hr {
+  margin-right: 90%;
+}
+
+.featured-speaking-content p {
+  font-size: 14px;
+}
+
+.more-button {
+  color: unset;
+  border-color: #e7e7e7;
+}
+
+.more-button:hover {
+  color: unset;
+  background-color: unset;
+  border-color: var(--primary-color);
+}
+
+.more-button:focus,
+.more-button:active {
+  outline: none !important;
+  color: #fff;
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+  border-color: var(--primary-color) !important;
+}
+
+.more-button:focus i,
+.more-button:active i {
+  color: #fff;
+}
+
+.featured-speakers button {
+  padding: 15px 0;
+}
+
+.partners {
+  background-color: #414246;
+}
+
+.partners .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners .section-title {
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.partners .partners-info i {
+  color: #8f8f8f;
+}
+
+.partners-info .list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.whole-program-link {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.partners-info li {
+  margin: 10px;
+}
+
+.partners-info i:hover {
+  color: #fff;
+}
+
+.main-program span:hover {
+  text-decoration: underline;
+  color: var(--third-color);
+}
+
+.main-program .button a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.left-content h5 {
+  margin: 0;
+}
+
+.articles-content article:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+/* MEDIA QUERYS */
+
+@media only screen and (max-width: 576px) {
+  .hero-section .container-fluid {
+    padding-top: 80px;
+  }
+
+  .articles-content-info h5 {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .partners-info .list-unstyled {
+    margin: 0 100px;
+  }
+
+  .articles-content article {
+    width: 48%;
+    margin: 5px;
+  }
+
+  article .articles-content-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .articles-content-info .left-content {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .left-content i {
+    margin-bottom: 10px;
+  }
+
+  .main-program .articles-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero-section .container-fluid {
+    padding-left: 150px;
+    padding-right: 40%;
+  }
+
+  .section-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .articles-content article {
+    width: 32%;
+  }
+
+  article .articles-content-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .right-content {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .articles-content article {
+    width: 18%;
+  }
+
+  .right-content {
+    font-size: 12px;
+  }
+}

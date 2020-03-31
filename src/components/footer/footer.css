@@ -1,0 +1,22 @@
+.footer {
+  background-color: #2e2e2e;
+  color: var(--third-color);
+}
+
+.footer .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.info-footer p {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    margin-left: 15%;
+  }
+}
