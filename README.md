@@ -1,4 +1,4 @@
-# Loachella web page design - HTML & CSS Capstone project
+# Loachella festival schedule app
 
 > This project was built for the HTML & CSS Capstone Project is based on an online website for a music festival. With about, tickets and schedule sections (pages), so far it's finished but just in the frontend part, later I'm going to finish the backend for this web site.
 
@@ -8,10 +8,7 @@
 
 ## Screenshots
 
-| ![image](https://user-images.githubusercontent.com/24902525/77964231-59803980-72a4-11ea-97da-fafcfa9c52f5.png) |
-| ------------------------------------------------------------ |
-| ![image](https://user-images.githubusercontent.com/24902525/77964398-99472100-72a4-11ea-8a2e-d6bc6e122f3a.png) |
-|![image](https://user-images.githubusercontent.com/24902525/77964530-ce537380-72a4-11ea-892b-e471b21fc2c5.png)|
+![image](https://user-images.githubusercontent.com/24902525/77964231-59803980-72a4-11ea-97da-fafcfa9c52f5.png)
 
 
 
