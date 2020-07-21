@@ -32,6 +32,10 @@ Check [improvements](#improvements) section.
 - Retrieve data from a backend
 - Move from HTML and vanilla CSS to React JS
 
+## Acknowledgment
+
+📄💻 Layouts design by <a href="https://www.behance.net/adagio07" target="_blank">Cindy Shin on Behance</a>
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -41,5 +45,4 @@ Contributions, issues and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## Credits
-📄💻 Layouts design by <a href="https://www.behance.net/adagio07" target="_blank">Cindy Shin in Behance</a>
+
