@@ -30,7 +30,7 @@ Check [improvements](#improvements) section.
 ## Improvements
 
 - Retrieve data from a backend
-- Change all elements to React JS
+- Move from HTML and vanilla CSS to React JS
 
 ## 🤝 Contributing
 
