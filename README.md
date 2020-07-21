@@ -1,16 +1,16 @@
 # Loachella festival schedule app
 
-> This project was built for the HTML & CSS Capstone Project is based on an online website for a music festival. With about, tickets and schedule sections (pages), so far it's finished but just in the frontend part, later I'm going to finish the backend for this web site.
+### Loachella a made-up music festival website. It displays a schedule, about the festival and also would allow you to buy tickets. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24902525/77964231-59803980-72a4-11ea-97da-fafcfa9c52f5.png" width="600"/>
+</p>
+
+Check [improvements](#improvements) section.
 
 ## Live demo
 
-- <a href="https://nervous-volhard-8cf75d.netlify.com/" target="_blank">Check it out</a>💻
-
-## Screenshots
-
-![image](https://user-images.githubusercontent.com/24902525/77964231-59803980-72a4-11ea-97da-fafcfa9c52f5.png)
-
-
+<a href="https://nervous-volhard-8cf75d.netlify.com/" target="_blank">Check it out</a>💻
 
 ## Built With
 
@@ -27,6 +27,10 @@
 - Twitter: [@btandayamo](https://twitter.com/batandayamo)
 - Linkedin: [Bertil Tandayamo](http://bit.ly/bertil_linkedin)
 
+## Improvements
+
+- Retrieve data from a backend
+- Change all elements to React JS
 
 ## 🤝 Contributing
 
